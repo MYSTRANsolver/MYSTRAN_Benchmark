@@ -8,4 +8,5 @@ MYSTRAN_Benchmark is intended to:
    - If a 2 node spring element (CELAS1) with a stiffness of 1.0 results and force of 1.0 results
      in a defelection of 100000.0 (F=Kx), there's no point in verifying the example has the same answer across versions.  Instead, it should be flagged as a bug.
 
-This repo is not intended to be used for performance testing.
+This repo is not intended to be used:
+ - performance testing.
