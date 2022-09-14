@@ -1,5 +1,5 @@
 # MYSTRAN_Benchmark
-Benchmarks for MYSTRAN
+Benchmarks for [MYSTRAN](https://github.com/MYSTRANsolver/MYSTRAN)
 
 The MYSTRAN_Benchmark repository is intended to:
  - Compare results between versions of MYSTRAN
