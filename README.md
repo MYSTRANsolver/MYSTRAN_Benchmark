@@ -1,12 +1,9 @@
 # MYSTRAN_Benchmark
 Benchmarks for MYSTRAN
 
-MYSTRAN_Benchmark is intended to:
+The MYSTRAN_Benchmark repository is intended to:
  - Compare results between versions of MYSTRAN
-   - Find/avoid regressions in the software (it worked in version 10.0, but not 11.0)
- - Compare results for models that are correcct/assumed to be correct.  If results are nonsense, it's a bad example.
-   - If a 2 node spring element (CELAS1) with a stiffness of 1.0 results and force of 1.0 results
-     in a defelection of 100000.0 (F=Kx), there's no point in verifying the example has the same answer across versions.  Instead, it should be flagged as a bug.
+   - This is accomplished by comparing all numerical data points from a set of accepted results files (assumed to be correct) from over 100 models to those of a new build.
+   - Intended to find/avoid regressions (bugs) in the software. For example, something worked in 10.0 but not in 10.1.
+   - Primarly intended for developers, but end users may also perform and independent verification.
 
-This repo is not intended to be used:
- - performance testing.
