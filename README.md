@@ -7,4 +7,4 @@ The MYSTRAN_Benchmark repository is intended to:
    - Intended to find/avoid regressions (bugs) in the software. For example, something worked in 10.0 but not in 10.1.
    - Primarly intended for developers, but end users may also perform an independent verification.
 
-The process is to finalized (some updates need to be made), but the 9_9_2002 version is the latest and generally works well.
+The process is to finalized (some updates need to be made), but the 9_9_2022 version is the latest and generally works well.
